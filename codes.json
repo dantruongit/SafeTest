@@ -1,0 +1,42 @@
+{
+    "Client":{
+        "Authenciation":{
+            "request" : {
+                "authen|username|password" : "Yêu cầu xác thực|Tên đăng nhập|Mật khẩu"
+            },
+            "response" : {
+                "success" : {
+                    "value" : "Xác thực thành công"
+                },
+                "refuse" : {
+                    "value" : "Xác thực thất bại"
+                }
+            }
+        },
+        "Request_Test": {
+            "request" : {
+                "request_start" : "Yêu cầu bắt đầu"
+            },
+            "response" : {
+                "success" : {
+                    "name" : "Tên bài thi",
+                    "length" : "Số lượng câu hỏi"
+                },
+                "refuse" : {
+                    "refuse_test" : "Từ chối yêu cầu bắt đầu bài thi"
+                }
+            }
+        },
+        "Supervise_Testing":{
+            "request" : {
+                "lost_focus" : "Chuyển đổi cửa sổ"
+            },
+            "response" : {
+                "warning_on_focus" : "Cảnh báo chuyển đổi cửa sổ"
+            }
+        }
+    },
+    "Server":{
+
+    }
+}
